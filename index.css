@@ -1,0 +1,93 @@
+section{
+    position: relative;
+    top: 150px;
+    text-align: center;
+    padding: 12px;
+}
+body{
+    background-color: gray;
+}
+
+
+button{
+    border-radius: 33px;
+    background-color: rgb(198, 255, 196);
+    padding: 12px;
+    width: 140px;
+    font-size: large;
+    font-weight: bold;
+
+    
+}
+
+#bs{
+    position: relative;
+
+    
+}
+#bb{
+    position: relative;
+    bottom: 70px;
+  
+}
+#bf{
+    position: relative;
+    bottom: 18px;
+ 
+}
+#bl{
+    position: relative;
+    right: 180px;
+    bottom: 95px;
+ 
+}
+#br{
+    position: relative;
+   left: 180px;
+   bottom: 48px;
+   
+}
+
+
+
+
+@media screen and (max-width : 1000px){
+    body{
+        background-color: darkkhaki;
+    }
+    button{
+        border-radius: 33px;
+        background-color: bisque;
+        padding: 8px;
+        width: 100px ;
+        
+    }
+
+    #bs{
+        position: relative;
+
+        
+    }
+    #bb{
+        position: relative;
+        bottom: 70px;
+      
+    }
+    #bf{
+        position: relative;
+        bottom: 12px;
+     
+    }
+    #bl{
+        position: relative;
+        right: 110px;
+        bottom: 83px;
+     
+    }
+    #br{
+        position: relative;
+       left: 105px;
+       bottom: 43px;
+       
+    }
+}
